@@ -2,7 +2,7 @@
   💻<br>Fylo Landing Page
 </h1>
 
-![Design preview for the Fylo landing page](./design/desktop-preview.jpg)
+![Design preview for the Fylo landing page](./design/largeScreen-preview.png)
 
 <h4 align="center"><a href="https://lucasgabriell97.github.io/fylo-landing-page/">Clique para visitar o projeto</a></h4>
 
