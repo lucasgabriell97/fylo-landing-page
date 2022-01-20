@@ -14,4 +14,4 @@ propriedade flexbox do CSS.
 ## 💼 Tecnologias utilizadas
 
 - HTML;
-- Sass;
+- SASS;
