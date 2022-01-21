@@ -132,6 +132,14 @@ body {
   color: #bfbfbf;
 }
 
+.main .files .content .form .input-email:focus {
+  outline: none;
+}
+
+.main .files .content .form .input-email:invalid {
+  border: 1px solid red;
+}
+
 .main .files .content .form .started-btn {
   margin-top: 1rem;
   padding: 0.8rem 1.2rem;
@@ -284,7 +292,7 @@ body {
 .main .newsletter .form-newsletter .form .input-email {
   margin-top: 2rem;
   padding: 0.8rem 0.8rem;
-  border: solid 1px gray;
+  border: solid 1px #070439;
   border-radius: 0.2rem;
   -webkit-box-shadow: 2px 2px 6px -4px #070439;
           box-shadow: 2px 2px 6px -4px #070439;
@@ -304,6 +312,14 @@ body {
 
 .main .newsletter .form-newsletter .form .input-email::placeholder {
   color: #bfbfbf;
+}
+
+.main .newsletter .form-newsletter .form .input-email:focus {
+  outline: none;
+}
+
+.main .newsletter .form-newsletter .form .input-email:invalid {
+  border: 1px solid red;
 }
 
 .main .newsletter .form-newsletter .form .started-btn {
