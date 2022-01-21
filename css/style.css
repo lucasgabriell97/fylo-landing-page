@@ -440,8 +440,55 @@ body {
   color: #3065f8;
 }
 
+/*====== MEDIUM DEVICES - TABLETS ======*/
+@media (min-width: 720px) {
+  .header .navbar {
+    padding: 3rem 3rem;
+  }
+  .header .navbar .logo {
+    width: 8.5rem;
+  }
+  .header .navbar .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .header .navbar .menu .menu-link {
+    font-size: 0.9rem;
+  }
+  .main .files {
+    padding: 4rem 3rem 5rem 3rem;
+  }
+  .main .files .content .form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .files .content .form .input-email {
+    width: 25rem;
+  }
+  .main .files .content .form .started-btn {
+    width: 25rem;
+  }
+  .main .newsletter .form-newsletter .form {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .newsletter .form-newsletter .form .input-email {
+    width: 25rem;
+  }
+  .main .newsletter .form-newsletter .form .started-btn {
+    width: 25rem;
+  }
+  .footer {
+    padding: 4rem 3rem 1.5rem 3rem;
+  }
+}
+
 /*====== LARGE DEVICES - DESKTOPS ======*/
-@media screen and (min-width: 960px) {
+@media (min-width: 1190px) {
   .header .navbar {
     padding: 3rem 6rem;
   }
@@ -473,9 +520,6 @@ body {
             align-items: center;
     gap: 4rem;
     padding: 2.5rem 6rem 7rem 6rem;
-  }
-  .main .files .img .illustration-img {
-    width: 100%;
   }
   .main .files .content .title {
     margin-top: 2rem;
@@ -551,12 +595,20 @@ body {
     padding-right: 5rem;
     text-align: start;
   }
+  .main .newsletter .form-newsletter .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .main .newsletter .form-newsletter .form .input-email {
     margin-top: 0;
     width: 27rem;
   }
   .main .newsletter .form-newsletter .form .started-btn {
-    width: 12rem;
+    width: 13rem;
   }
   .footer {
     padding: 6rem 6rem 1.5rem 6rem;
@@ -572,7 +624,7 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    gap: 14rem;
+    gap: 15%;
     margin-top: 2rem;
   }
   .footer .footer-info .fylo-contact .footer-icons {
