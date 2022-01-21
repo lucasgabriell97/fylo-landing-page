@@ -380,10 +380,75 @@ body {
     }
 }
 
+/*====== MEDIUM DEVICES - TABLETS ======*/
+
+@media(min-width: 720px) {
+    .header {
+        .navbar {
+            padding: 3rem 3rem;
+    
+            .logo {
+                width: 8.5rem;
+            }
+    
+            .menu {
+                display: flex;
+                gap: 2.5rem;
+    
+                .menu-link {
+                    font-size: 0.9rem;
+                }
+            }
+        }    
+    }
+
+    .main {
+        .files {
+            padding: 4rem 3rem 5rem 3rem;
+    
+            .content {
+                .form {
+                    align-items: center;
+
+                    .input-email {
+                        width: 25rem;
+                    }
+    
+                    .started-btn {
+                        width: 25rem;
+                    }
+                }
+            }
+        
+        }
+    
+        .newsletter {
+            .form-newsletter {
+                .form {
+                    align-items: center;
+                   
+                    .input-email {
+                        width: 25rem;
+                    }
+                    
+    
+                    .started-btn {
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 4rem 3rem 1.5rem 3rem;
+    }
+}
+
 /*====== LARGE DEVICES - DESKTOPS ======*/
 
-@media screen and (min-width: 960px) {
-    .header {  
+@media(min-width: 1190px) {
+    .header {
         .navbar {
             padding: 3rem 6rem;
     
@@ -412,11 +477,7 @@ body {
     
             padding: 2.5rem 6rem 7rem 6rem;
     
-            .img {
-                .illustration-img {
-                    width: 100%;
-                }
-            }
+            
     
             .content {
                 .title {
@@ -493,6 +554,9 @@ body {
     
             .form-newsletter {
                 .form {
+                    display: flex;
+                    align-items: flex-start;
+
                     .input-email {
                         margin-top: 0;
                    
@@ -501,7 +565,7 @@ body {
                     
     
                     .started-btn {
-                        width: 12rem;
+                        width: 13rem;
                     }
                 }
             }
@@ -515,7 +579,7 @@ body {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
-            gap: 14rem;
+            gap: 15%;
             
             margin-top: 2rem;
 
